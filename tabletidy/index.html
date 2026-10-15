@@ -5,13 +5,16 @@
 h1{font-size:28px}h2{font-size:20px;margin-top:32px}@media(prefers-color-scheme:dark){body{background:#111;color:#eee}a{color:#5fd0b8}}</style></head>
 <body>
 <h1>TableTidy</h1>
-<p>A CSV editor for Mac that opens files without broken characters, lost zeros or merged columns.</p>
+<p>A CSV and Excel editor for Mac that opens files without broken characters, lost zeros or merged columns.</p>
 <h2>Help</h2>
 <ul>
 <li><strong>Strange characters after opening?</strong> Choose another character set in the import options (File → Change Import Options). Files from Windows in Russian are usually Windows-1251; Western European files are usually Windows-1252.</li>
 <li><strong>Everything is in one column?</strong> Tick the separator the file uses: semicolon, tab, comma or another character.</li>
 <li><strong>Excel shows broken characters in a saved file?</strong> Save As → preset “Excel (Windows)”: UTF-8 with a byte order mark.</li>
 <li><strong>“Can't be saved in …”</strong> The chosen character set has no such character. TableTidy names the row and column; choose UTF-8 or change the cell.</li>
+<li><strong>Excel files with several sheets:</strong> open the .xlsx file; each sheet gets a tab at the bottom. Saving as CSV keeps only the current sheet; File → Save As → Excel workbook keeps all of them (Pro).</li>
+<li><strong>Comparing two lists:</strong> put both in one file as sheets (the + button at the bottom, or Insert → Sheet from Another File), then Data → Compare Sheets. Match rows by a key column such as an article number, choose the columns to compare, and see added, missing and changed rows highlighted. A Differences sheet lists every change.</li>
+<li><strong>Find:</strong> ⌘F opens the find bar above the table; ⌘G and ⇧⌘G go to the next and previous match.</li>
 <li><strong>Restore TableTidy Pro on another Mac:</strong> TableTidy → Settings → Restore Purchase.</li>
 </ul>
 <h2>Contact</h2>
